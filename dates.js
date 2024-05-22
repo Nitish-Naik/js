@@ -3,7 +3,8 @@
 let myDate = new Date();
 
 console.log(myDate);
-
+mh = myDate.getDate()
+console.log(typeof(mh))
 console.log(myDate.toString())
 
 console.log(myDate.toDateString())
